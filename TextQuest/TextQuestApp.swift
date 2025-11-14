@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import FoundationModels
 
 @main
 struct TextQuestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView()
         }
     }
 }
